@@ -4,8 +4,9 @@ import Divider from "../components/Divider";
 export default function About() {
   return (
     <section id="about">
-      <div className="container mx-auto flex lg:flex-row justify-between w-2/3 gap-12 lg:gap-24 px-6 lg:px-12">
-        <div className="text-center lg:text-left">
+      <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center lg:items-start w-full lg:w-2/3 gap-12 lg:gap-24 px-6 lg:px-12">
+        {/* Text Section */}
+        <div className="text-center lg:text-left w-full lg:w-1/2">
           <h2 className="text-3xl lg:text-4xl font-bold font-sans text-white">
             About Me
           </h2>
@@ -22,14 +23,13 @@ export default function About() {
           </p>
         </div>
 
-        <div className="">
-          <div className="w-64 h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden mx-auto lg:mx-0 border-4 border-gray-700 shadow-lg">
-            <img
-              src={ProfilePhoto}
-              alt="Your Name"
-              className="w-full h-full object-cover"
-            />
-          </div>
+        {/* Profile Image Section */}
+        <div className="w-64 h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden mx-auto lg:mx-0 border-4 border-gray-700 shadow-lg">
+          <img
+            src={ProfilePhoto}
+            alt="Your Name"
+            className="w-full h-full object-cover"
+          />
         </div>
       </div>
       <Divider />

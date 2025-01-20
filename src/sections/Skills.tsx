@@ -102,11 +102,11 @@ export default function Skills() {
 
   return (
     <section id="skills" className="pb-16">
-      <div className="container mx-auto w-2/3 px-14 lg:px-8">
+      <div className="container mx-auto lg:xl:w-2/3 sm:xs:md:w-full px-14 lg:px-8">
         <h2 className="text-3xl font-bold text-white mb-12 text-center">
           Skills
         </h2>
-        <div className="grid grid-cols-4 gap-6">
+        <div className="grid lg:xl:grid-cols-4 md:sm:xs:griid-cols-1 gap-6">
           {skills.map((skill) => (
             <SkillCard key={skill.name} skill={skill} />
           ))}
