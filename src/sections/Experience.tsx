@@ -4,21 +4,21 @@ export default function Experience() {
   return (
     <section id="experience">
       <div className="container mx-auto w-2/3 px-14 lg:px-8">
-        <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-12 text-center">
+        <h2 className="text-3xl font-bold text-white mb-12 text-center">
           Work & Relevant Experience
         </h2>
 
-        <ol className="relative border-l border-gray-200 dark:border-gray-700">
+        <ol className="relative border-l border-gray-700">
           <li className="mb-10 ml-20">
-            <div className="absolute w-3 h-3 bg-green-500 rounded-full -left-1.5 border border-white dark:border-gray-900"></div>
-            <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+            <div className="absolute w-3 h-3 bg-green-500 rounded-full -left-1.5 border border-gray-900"></div>
+            <time className="mb-1 text-sm font-normal leading-none text-gray-500">
               August 2021 - Present
               <span className="text-xs pl-2">(3.5 years)</span>
             </time>
-            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+            <h3 className="text-lg font-semibold text-white">
               Systems Engineer - TCS
             </h3>
-            <ul className="list-disc pl-4 text-base font-normal text-gray-600 dark:text-gray-400 space-y-2">
+            <ul className="list-disc pl-4 text-base font-normal text-gray-400 space-y-2">
               <li>
                 Worked as a Java backend developer for American Express in the
                 Redemptions domain, maintaining and enhancing applications for
@@ -42,15 +42,15 @@ export default function Experience() {
             </ul>
           </li>
           <li className="mb-10 ml-20">
-            <div className="absolute w-3 h-3 bg-blue-500 rounded-full -left-1.5 border border-white dark:border-gray-900"></div>
-            <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+            <div className="absolute w-3 h-3 bg-blue-500 rounded-full -left-1.5 border border-gray-900"></div>
+            <time className="mb-1 text-sm font-normal leading-none text-gray-500">
               January 2019 - May 2021
               <span className="text-xs pl-2">(2 years)</span>
             </time>
-            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+            <h3 className="text-lg font-semibold text-white">
               Freelancer
             </h3>
-            <ul className="list-disc pl-4 text-base font-normal text-gray-600 dark:text-gray-400">
+            <ul className="list-disc pl-4 text-base font-normal text-gray-400">
               <li>
                 Developed an MVP for a task delegation application, allowing
                 users to search for friends who can perform specific tasks, with

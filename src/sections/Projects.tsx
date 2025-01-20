@@ -5,11 +5,11 @@ export default function Projects() {
   return (
     <section id="projects">
       <div className="container mx-auto w-2/3 px-14 lg:px-8">
-        <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-12 text-center">
+        <h2 className="text-3xl font-bold text-white mb-12 text-center">
           Projects
         </h2>
-        <div className="bg-gray-100 text-gray-400 dark:bg-gray-800 p-6 rounded shadow-lg">
-          <h3 className="text-lg font-semibold font-sans text-gray-900 dark:text-white">
+        <div className="text-gray-400 bg-gray-800 p-6 rounded shadow-lg">
+          <h3 className="text-lg font-semibold font-sans text-white">
             E-Commerce
             <span className="text-sm text-gray-400 pl-2">(Backend)</span>
           </h3>
@@ -55,7 +55,7 @@ export default function Projects() {
           <div className="flex items-center mt-4 space-x-4">
             <a
               href="#"
-              className="px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 focus:ring-2 focus:outline-none focus:ring-gray-100 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+              className="px-4 py-2 text-sm font-medium border rounded-lg focus:ring-2 focus:outline-none bg-gray-800 text-gray-400 border-gray-600 hover:text-white hover:bg-gray-700 focus:ring-gray-700"
             >
               View Details
             </a>
@@ -80,8 +80,8 @@ export default function Projects() {
           </div>
         </div>
 
-        <div className="bg-gray-100 text-gray-400 mt-4 dark:bg-gray-800 p-6 rounded shadow-lg">
-          <h3 className="text-lg font-semibold font-sans text-gray-900 dark:text-white">
+        <div className="text-gray-400 mt-4 bg-gray-800 p-6 rounded shadow-lg">
+          <h3 className="text-lg font-semibold font-sans text-white">
             Bus Booking Application
             <span className="text-sm text-gray-400 pl-2">(Fullstack)</span>
           </h3>
@@ -130,7 +130,7 @@ export default function Projects() {
           <div className="flex items-center mt-4 space-x-4">
             <a
               href="#"
-              className="px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 focus:ring-2 focus:outline-none focus:ring-gray-100 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+              className="px-4 py-2 text-sm font-medium border rounded-lg focus:ring-2 focus:outline-none bg-gray-800 text-gray-400 border-gray-600 hover:text-white hover:bg-gray-700 focus:ring-gray-700"
             >
               View Details
             </a>

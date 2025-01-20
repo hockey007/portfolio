@@ -103,7 +103,7 @@ export default function Skills() {
   return (
     <section id="skills" className="pb-16">
       <div className="container mx-auto w-2/3 px-14 lg:px-8">
-        <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-12 text-center">
+        <h2 className="text-3xl font-bold text-white mb-12 text-center">
           Skills
         </h2>
         <div className="grid grid-cols-4 gap-6">
