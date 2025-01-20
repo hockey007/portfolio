@@ -32,7 +32,7 @@ export default function Hero() {
         
         <Button 
           name="Download Resume" 
-          link="/harikrishnanuvvula.pdf" 
+          link="/portfolio/harikrishnanuvvula.pdf" 
           isPrimary={true} 
           isIconButton={true} 
           icon={<img src={DownloadIcon} alt="download-icon" className="w-3 h-3" />} 

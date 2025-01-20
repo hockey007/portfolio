@@ -150,14 +150,14 @@ export default function Projects() {
                 </svg>
               }
               link={"https://github.com/hockey007?tab=repositories&q=town_chale"}
-              isPrimary={false}
+              isPrimary={true}
             />
-            <Button
+            {/* <Button
               name={"Live Demo"}
               isIconButton={false}
               link={"#"}
               isPrimary={true}
-            />
+            /> */}
           </div>
         </div>
       </div>
